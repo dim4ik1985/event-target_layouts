@@ -1,0 +1,29 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.icon-switch {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 100px 40px 0;
+}
+
+.product__items {
+  display: flex;
+  width: 100%;
+}
+
+.product__items.view_module {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px 10px;
+}
+
+.product__items.view_list {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3px 0;
+}
